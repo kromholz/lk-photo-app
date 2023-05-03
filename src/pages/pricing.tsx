@@ -10,7 +10,7 @@ const Pricing: React.FC = () => {
         <h1 className="text-center text-4xl mb-8">Pricing</h1>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {/* Standard Package */}
-          <div className="bg-gray-800 border p-4 rounded shadow-md hover:shadow-lg transition-shadow duration-300">
+          <div className="bg-gray-900 border p-4 rounded shadow-md hover:shadow-lg transition-shadow duration-300">
             <h2 className="text-2xl mb-4">Standard Package (99€)</h2>
             <ul className="list-disc pl-5">
               <li>3 professionally edited photos</li>
@@ -18,7 +18,7 @@ const Pricing: React.FC = () => {
           </div>
 
           {/* Premium Package */}
-          <div className="bg-gray-800 border p-4 rounded shadow-md hover:shadow-lg transition-shadow duration-300">
+          <div className="bg-gray-900 border p-4 rounded shadow-md hover:shadow-lg transition-shadow duration-300">
             <h2 className="text-2xl mb-4">Premium Package (349€)</h2>
             <ul className="list-disc pl-5">
               <li>5 beautifully edited photos</li>
@@ -32,7 +32,7 @@ const Pricing: React.FC = () => {
           </div>
 
           {/* Deluxe Package */}
-          <div className="bg-gray-800 border p-4 rounded shadow-md hover:shadow-lg transition-shadow duration-300">
+          <div className="bg-gray-900 border p-4 rounded shadow-md hover:shadow-lg transition-shadow duration-300">
             <h2 className="text-2xl mb-4">Deluxe Package (649€)</h2>
             <ul className="list-disc pl-5">
               <li>8 professionally edited photos</li>
@@ -48,7 +48,7 @@ const Pricing: React.FC = () => {
         </div>
 
         {/* Tailored Experience */}
-        <div className="bg-gray-100 border p-4 mt-8 rounded shadow-md hover:shadow-lg transition-shadow duration-300">
+        <div className="bg-gray-900 border p-4 mt-8 rounded shadow-md hover:shadow-lg transition-shadow duration-300">
           <h2 className="text-2xl mb-4">Tailored Experience (1000€)</h2>
           <ul className="list-disc pl-5">
             <li>16 professionally edited photos</li>
