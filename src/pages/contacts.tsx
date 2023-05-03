@@ -1,7 +1,12 @@
+import Header from '../components/Header';
+
 const Contacts: React.FC = () => {
     return (
       <div>
-        <h1>Contacts Me</h1>
+      <Header />
+      <main>
+        <h1>Home Page</h1>
+      </main>
       </div>
     );
   }
