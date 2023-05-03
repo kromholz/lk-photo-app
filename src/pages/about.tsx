@@ -1,6 +1,7 @@
 // src/pages/about.tsx
 import React from 'react';
 import Header from '../components/Header';
+import Image from 'next/image';
 
 const About: React.FC = () => {
   return (
@@ -20,18 +21,22 @@ const About: React.FC = () => {
             </p>
             {/* Signature */}
             <div className="mt-4">
-              <img
+              <Image
                 src="https://your-signature-image-url"
                 alt="Your Signature"
+                width={250}
+                height={100}
                 className="max-w-xs mx-auto md:mx-0"
               />
             </div>
           </div>
           {/* Photo */}
           <div>
-            <img
+            <Image
               src="https://your-photo-url"
               alt="Your Name"
+              width={500}
+              height={500}
               className="max-w-full h-auto mx-auto md:mx-0"
             />
           </div>
