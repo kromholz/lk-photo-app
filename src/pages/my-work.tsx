@@ -5,7 +5,7 @@ const MyWork: React.FC = () => {
       <div>
       <Header />
       <main>
-        <h1>Home Page</h1>
+        <h1>MyWork</h1>
       </main>
       </div>
     );
