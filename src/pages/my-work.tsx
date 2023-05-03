@@ -1,7 +1,12 @@
+import Header from '../components/Header';
+
 const MyWork: React.FC = () => {
     return (
       <div>
-        <h1>My-Work</h1>
+      <Header />
+      <main>
+        <h1>Home Page</h1>
+      </main>
       </div>
     );
   }
