@@ -5,7 +5,7 @@ const Pricing: React.FC = () => {
       <div>
       <Header />
       <main>
-        <h1>Home Page</h1>
+        <h1>Pricing</h1>
       </main>
       </div>
     );
