@@ -9,7 +9,7 @@ const Header: React.FC = () => {
       <div className="container mx-auto px-4 flex items-center justify-between">
         <Link href="/">
           <a className="flex items-center">
-            <Image src="/public/logo.png" alt="Logo" width={100} height={40} />
+            <Image src="/logo.png" alt="Logo" width={473} height={238} />
             <span className="text-2xl font-semibold ml-2 text-gray-800">Your Site Name</span>
           </a>
         </Link>
